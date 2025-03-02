@@ -88,9 +88,6 @@ def read_task(task_id: int, db: Session = Depends(get_db)):
     return task
 
 
-
-
-
 @app.put("/tasks/{task_id}")
 def update_task(task_id: int, task: Task, db: Session = Depends(get_db)):
     """Update a task with error handling"""

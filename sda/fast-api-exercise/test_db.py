@@ -25,3 +25,4 @@ async def test_connection():
 
 # Run test
 asyncio.run(test_connection())
+
